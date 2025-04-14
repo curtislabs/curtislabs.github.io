@@ -1,0 +1,36 @@
+main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Posts
+    url: /blog/
+    weight: 2
+    # child:
+    #   - name: "Blog Layout 1"
+    #     icon: "/assets/images/icons/menu/black/noun-wireframe-1514469-000000.svg"
+    #     icon_darkmode: "/assets/images/icons/menu/white/noun-wireframe-1514469-FFFFFF.svg"
+    #     description: "Default layout"
+    #     url: /blog/
+  - name: About
+    url: /about/
+    weight: 3
+  # - name: Contact
+  #   url: /contact/
+  #   weight: 4
+# footer_primary:
+#   - name: Blog
+#     url: /posts/
+#     weight: 1
+#   - name: About
+#     url: /about/
+#     weight: 2
+#   - name: Contact
+#     url: /contact/
+#     weight: 3
+# bottom:
+#   - name: Terms and Conditions
+#     url: /terms-and-conditions/
+#     weight: 1
+#   - name: Privacy Policy
+#     url: /privacy-policy/
+#     weight: 2
