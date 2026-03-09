@@ -47,7 +47,7 @@ defaults:
 
 # SCSS
 sass:
-  style: compact
+  style: compressed
 
 # Excludes
 exclude:
@@ -178,5 +178,5 @@ menu:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2025 Adam Curtis"
+  copyright_text: "© 2026 Adam Curtis"
   show_rss_icon: true
