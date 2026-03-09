@@ -6,6 +6,7 @@ authors: ["Adam Curtis"]
 categories: ["Azure", "API Management"]
 description: "How to remove an Azure API Gateway version constraint using the Azure CLI."
 thumbnail: "/assets/images/gen/blog/azure-api-gateway-logo-thumbnail.png"
+permalink: /azure/1/remove-azure-api-version-constraint
 # image: "/assets/images/gen/blog/azure-api-gateway-logo.png"
 ---
 Microsoft [recently shared](https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/api-version-retirement-sep-2023) they were retiring Azure Resource Manager API versions, and as part of that, users would need to set a minimum API version in Azure API Management. I [followed their directions](https://learn.microsoft.com/en-us/azure/api-management/breaking-changes/api-version-retirement-sep-2023#update-minimum-api-version-setting-on-your-api-management-instance) to set our API version to **2021-08-01**, but then noticed all of our connections to Azure API Management from Logic Apps were broken with the error *"API version query parameter is not specified or was specified incorrectly"*. 

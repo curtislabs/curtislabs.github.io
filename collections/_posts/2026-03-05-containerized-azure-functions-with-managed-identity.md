@@ -6,6 +6,7 @@ authors: ["Adam Curtis"]
 categories: ["Azure", "Azure Functions", "Containers", "Microsoft Graph", "Identity"]
 description: "Learn how to run a containerized C# Azure Function in Azure Container Apps that securely calls Microsoft Graph using a user-assigned managed identity. This guide shows how to eliminate secrets using Azure Storage identity access, Key Vault for function keys, and managed identity authentication."
 thumbnail: "/assets/images/gen/blog/azure-functions-container-logo-thumbnail.png"
+permalink: /azure/2/containerized-azure-functions-with-managed-identity
 # image: "/assets/images/gen/blog/azure-functions-container-logo.png"
 ---
 
